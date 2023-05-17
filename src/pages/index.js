@@ -8,9 +8,9 @@ import Container from "components/util/Container"
 export default function Home() {
   return (
     <Layout>
-      <Container>
+      <Container bg='red'>
         <Heading as="h1">Hello World</Heading>
-        <Button>Button</Button>
+        <Button>Discover more</Button>
       </Container>
     </Layout>
   )

@@ -17,19 +17,22 @@ const customTheme = extendTheme({
     hd: '1900px',
   },
   fonts: {
-    body: "system-ui, sans-serif",
-    heading: "Georgia, serif",
+    heading: "Fela, system-ui, sans-serif",
+    fela: "Fela, system-ui, sans-serif",
+    body: "Montserrat, system-ui, sans-serif",
+    montserrat: "Montserrat, system-ui, sans-serif",
     mono: "Menlo, monospace",
   },
   colors: {
-    primary: '#3DCD58',
-    gray: '#F2F2F2',
-    link: '#5081FF'
+    primary: '#433C50',
+    black: '#433C50',
+    white: '#FFFFFF',
+    link: '#A4152D'
   },
   space: {
     gutter: '20px',
-    gridcol: '108px',
-    gridmargin: '202px',
+    gridcol: '115px',
+    gridmargin: '160px',
     px: '1px',
     spacer: '40px',
     desktop: {
@@ -38,8 +41,8 @@ const customTheme = extendTheme({
   },
   sizes: {
     gutter: '20px',
-    gridcol: '108px',
-    gridmargin: '202px',
+    gridcol: '115px',
+    gridmargin: '160px',
     px: '1px',
     spacer: '40px',
     desktop: {
@@ -50,7 +53,7 @@ const customTheme = extendTheme({
     full: '100%',
     half: '50%',
     container: {
-      desktop: '1516px',
+      desktop: '1595px',
     },
   },
 
