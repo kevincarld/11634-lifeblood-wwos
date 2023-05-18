@@ -25,7 +25,7 @@ const nextConfig = {
       siteName: '9 Wide World of Sports', // The Sydney Morning Herald, Good Food
       icon: 'wwos', // smh, goodfood, nine, afr, traveller
       themeColour: '#A4152D', // hex
-      ogImage: '#',
+      ogImage: 'https://live-native-paid-content.pantheonsite.io/wp-content/uploads/2023/05/11634-Lifeblood-x-AFL-SOCIAL-tile-1920x1080-1.jpg',
       date: '25-05-23', // e.g 03-12-23
       year: '2023' // e.g 2023
     },
