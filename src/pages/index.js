@@ -1,17 +1,26 @@
 
 import Layout from "components/util/Layout"
 // chakra
-import { Heading, Button } from "@chakra-ui/react"
+
 //
-import Container from "components/util/Container"
+import Hero from "components/Hero"
+import Intro from "components/Intro"
+import KickAnimation from "components/KickAnimation"
+import Donate from "components/Donate"
+import RollUp from "components/RollUp"
+import Biking from "components/Biking"
+import Footer from "components/Footer"
 
 export default function Home() {
   return (
     <Layout>
-      <Container bg='red'>
-        <Heading as="h1">Hello World</Heading>
-        <Button>Discover more</Button>
-      </Container>
+      <Hero />
+      <Intro />
+      <KickAnimation />
+      <Donate />
+      <RollUp />
+      <Biking />
+      <Footer />
     </Layout>
   )
 }
