@@ -18,6 +18,12 @@ const customTheme = extendTheme({
       fontSize: {base: '21px', d: '24px'},
       lineHeight: {base: '36px', d: '42px'},
     },
+    quote: {
+      fontFamily: "heading",
+      fontWeight: '600',
+      fontSize: {base: '39px', sm: '43px', d: ''},
+      lineHeight: {base: '46px', sm: '50px', d: ''},
+    }
   },
   breakpoints : {
     sm: '360px',

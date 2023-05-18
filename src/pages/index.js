@@ -18,7 +18,7 @@ export default function Home() {
       <Intro />
 
       <KickAnimation />
-      {/* <Donate /> */}
+      <Donate />
 
       {/* <RollUp /> */}
       {/* <Biking /> */}
