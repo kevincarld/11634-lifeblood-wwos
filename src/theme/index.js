@@ -6,7 +6,18 @@ const customTheme = extendTheme({
     Button
   },
   textStyles: {
-
+    body: {
+      fontFamily: "body",
+      fontWeight: 'medium',
+      fontSize: {base: '18px', d: '16px'},
+      lineHeight: {base: '30px', d: '28px'},
+    },
+    subheading: {
+      fontFamily: "body",
+      fontWeight: '600',
+      fontSize: {base: '21px', d: '24px'},
+      lineHeight: {base: '36px', d: '42px'},
+    },
   },
   breakpoints : {
     sm: '360px',
